@@ -1,21 +1,18 @@
 # **Lyrics-Based Genre Classification: Structure-Aware Machine Learning Approach**  
 
 ## **Table of Contents**  
-1. [Abstract](#abstract)  
-2. [Introduction](#introduction)  
-3. [Dataset Construction](#dataset-construction)  
-4. [Feature Extraction](#feature-extraction)  
-5. [Experimental Setup](#experimental-setup)  
-6. [Results & Contributions](#results--contributions)  
-7. [Installation & Environment Setup](#installation--environment-setup)  
-8. [Usage](#usage)  
-9. [Future Work](#future-work)  
-10. [Conclusion](#conclusion)  
-11. [License](#license)  
+1. [Introduction](#introduction) 
+2. [Dataset Construction](#dataset-construction)  
+3. [Feature Extraction](#feature-extraction)  
+4. [Experimental Setup](#experimental-setup)  
+5. [Results & Contributions](#results--contributions)  
+6. [Installation & Environment Setup](#installation--environment-setup)  
+7. [Usage](#usage)  
+8. [Future Work](#future-work)  
 
 ---  
 
-## **Abstract**  
+## **Introduction**  
 Focuses on **lyrics-based genre classification**, leveraging both **textual and structural** properties of song lyrics to enhance classification accuracy. Unlike traditional methods that treat lyrics as a uniform text block, this approach prioritizes **song composition**, particularly **chorus sections**, to evaluate their impact on prediction performance.  
 
 A **novel dataset** was created using **Genius.com** and **HuggingFace**, incorporating **section-level labels** such as chorus, verse, and intro. The dataset was then segmented into **chorus and non-chorus subsets** to enable comparative analysis of their contributions to classification accuracy.  
