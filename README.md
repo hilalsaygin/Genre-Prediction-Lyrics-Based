@@ -16,7 +16,7 @@
 ---  
 
 ## **Abstract**  
-This project focuses on **lyrics-based genre classification**, leveraging both **textual and structural** properties of song lyrics to enhance classification accuracy. Unlike traditional methods that treat lyrics as a uniform text block, this approach prioritizes **song composition**, particularly **chorus sections**, to evaluate their impact on prediction performance.  
+Focuses on **lyrics-based genre classification**, leveraging both **textual and structural** properties of song lyrics to enhance classification accuracy. Unlike traditional methods that treat lyrics as a uniform text block, this approach prioritizes **song composition**, particularly **chorus sections**, to evaluate their impact on prediction performance.  
 
 A **novel dataset** was created using **Genius.com** and **HuggingFace**, incorporating **section-level labels** such as chorus, verse, and intro. The dataset was then segmented into **chorus and non-chorus subsets** to enable comparative analysis of their contributions to classification accuracy.  
 
@@ -30,14 +30,11 @@ The extracted feature sets were transformed into **sparse matrix representations
 - **Non-chorus lyrics**  
 - **Combined data with weighted contributions**  
 
-The results demonstrated that **prioritizing chorus features significantly improved classification accuracy**, with the **best-performing configuration achieving ~60-62% accuracy** using **Random Forest**. This work highlights the importance of **structural elements in lyrics classification** and provides a **scalable framework** for integrating structural properties into text-based classification tasks.  
+The results demonstrated that **prioritizing chorus features significantly improved classification accuracy**, with the **best-performing configuration achieving ~60-61% accuracy** using **Random Forest**. This work highlights the importance of **structural elements in lyrics classification** and provides a **scalable framework** for integrating structural properties into text-based classification tasks.  
 
 **Keywords:** Machine Learning, Lyrics-Based Genre Detection, Feature Engineering, Random Forest  
 
 ---  
-
-## **Introduction**  
-This project introduces a **novel methodology for genre classification** based on the structural segmentation of song lyrics. Unlike traditional methods that rely on **full-text lyrics**, this approach examines how **chorus prioritization** affects classification performance.  
 
 The key objectives of this research are:  
 - **Investigate the role of chorus structures** in genre prediction  
